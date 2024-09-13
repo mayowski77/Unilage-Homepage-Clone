@@ -1,0 +1,56 @@
+/* Top Resources Section Styles */
+.top-resources-section {
+    background-color: #8b0000; /* Solid dark red background */
+    padding: 30px 200px; /* Padding around the entire section, with side padding */
+    color: #ffffff; /* White text color */
+  }
+  
+  .resources-header {
+    display: flex; /* Flexbox layout for header */
+    justify-content: space-between; /* Space between title and link */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .resources-title {
+    font-size: 36px; /* Large font size */
+    font-weight: bold; /* Bold text */
+    margin: 0; /* No margin */
+  }
+  
+  .see-all {
+    font-size: 16px; /* Smaller font size */
+    text-align: right; /* Right align text */
+  }
+  
+  .arrow-icon {
+    margin-left: 5px; /* Space between text and icon */
+  }
+  
+  .divider {
+    border: none; /* No border */
+    height: 1px; /* Height of the line */
+    background-color: #ffffff; /* White color for the line */
+    margin: 20px 0; /* Margin above and below the line */
+  }
+  
+  .resources-list {
+    display: flex; /* Flexbox layout for resource columns */
+    justify-content: space-between; /* Space between columns */
+    margin-top: 20px; /* Margin above resource list */
+  }
+  
+  .resource-column {
+    flex: 1; /* Each column takes equal space */
+    margin: 0 10px; /* Margin between columns */
+  }
+  
+  .resource-column ul {
+    list-style-type: none; /* No bullet points */
+    padding: 0; /* Remove padding */
+  }
+  
+  .resource-column li {
+    color: #ffffff; /* White text for list items */
+    font-size: 18px; /* Font size for list items */
+    margin: 5px 0; /* Margin between list items */
+  }

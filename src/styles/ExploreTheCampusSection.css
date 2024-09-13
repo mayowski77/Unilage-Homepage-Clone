@@ -1,0 +1,60 @@
+/* Explore the Campus Section Styles */
+.explore-campus-section {
+    background-color: #ffffff; /* Solid white background */
+    padding: 40px 200px; /* Padding around the section */
+    text-align: center; /* Center align text */
+}
+
+.explore-title {
+    font-size: 40px; /* Title font size */
+    font-weight: bold; /* Bold font */
+    color: #000000; /* Black text */
+    margin-bottom: 10px; /* Margin below title */
+}
+
+.explore-subtitle {
+    font-size: 18px; /* Subtitle font size */
+    color: darkgray; /* Dark gray text */
+    margin-bottom: 10px; /* Margin below subtitle */
+}
+
+.explore-instruction {
+    font-size: 14px; /* Instruction text size */
+    font-style: italic; /* Italic style */
+    color: darkgray; /* Dark gray text */
+    margin-bottom: 20px; /* Margin below instruction text */
+}
+
+.slideshow-container {
+    position: relative; /* Position relative to house the slideshow */
+    width: 100%; /* Full width */
+    height: 500px; /* Fixed height for the slideshow */
+    margin-bottom: 20px; /* Margin below slideshow */
+    overflow: hidden; /* Hide overflow for smooth transition */
+}
+
+.explore-image {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    object-fit: cover; /* Uniformly cover the container */
+    transition: opacity 1s ease-in-out; /* Smooth transition for image change */
+}
+
+.explore-navigation {
+    display: flex; /* Flexbox for navigation buttons */
+    justify-content: space-between; /* Space between buttons */
+    position: absolute; /* Position arrows absolutely */
+    top: 50%; /* Center vertically */
+    width: 100%; /* Full width */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+}
+
+.nav-arrow {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 18px; /* Font size for arrow */
+}

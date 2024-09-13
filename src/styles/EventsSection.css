@@ -1,0 +1,109 @@
+/* Events Section Styles */
+.events-section {
+    display: flex; /* Flexbox layout for the main section */
+    flex-direction: column; /* Stack elements vertically */
+    padding: 40px 200px; /* Padding around the section */
+  }
+  
+  .events-header {
+    text-align: center; /* Center align header */
+    margin-bottom: 20px; /* Margin below header */
+  }
+  
+  .events-header-title {
+    font-size: 32px; /* Header title font size */
+    font-weight: bold; /* Bold font */
+  }
+  
+  .events-header-subtitle {
+    font-size: 16px; /* Subtitle font size */
+    color: darkgray; /* Dark gray text */
+  }
+  
+  .events-grid {
+    display: flex; /* Flexbox layout for the grid */
+    gap: 20px; /* Space between sections */
+  }
+  
+  .events-left {
+    display: flex; /* Flexbox layout for left sections */
+    flex-direction: column; /* Stack sections vertically */
+    flex: 3; /* 3 parts of the total 5 parts */
+    gap: 20px; /* Space between left sections */
+  }
+  
+  .top-left {
+    background-color: #8b0000; /* Deep red background */
+    color: white; /* White text */
+    padding: 20px; /* Padding inside the section */
+    flex: 1; /* Takes 1 part of the left section */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-start; /* Align items to the top */
+  }
+  
+  .top-middle {
+    background-image: url("https://i.postimg.cc/RVTNfhZk/Rectangle-827685.png"); /* Background image */
+    background-size: cover; /* Cover the entire section */
+    color: white; /* White text */
+    padding: 20px; /* Padding inside the section */
+    flex: 1; /* Takes 1 part of the left section */
+    position: relative; /* For overlay */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-start; /* Align items to the top */
+  }
+  
+  .top-middle:after {
+    content: ""; /* Create a pseudo-element for overlay */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent gray overlay */
+  }
+  
+  .bottom-left {
+    background-color: black; /* Black background */
+    color: white; /* White text */
+    padding: 20px; /* Padding inside the section */
+    flex: 2; /* Takes 2 parts of the left section */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-start; /* Align items to the top */
+  }
+  
+  .right-section {
+    background-color: #ffeb3b; /* Bright yellow background */
+    color: black; /* Black text */
+    padding: 20px; /* Padding inside the section */
+    flex: 2; /* Takes 2 parts of the total 5 parts */
+    display: flex; /* Flexbox layout for content */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: flex-start; /* Align items to the top */
+  }
+  
+  .date-box {
+    background-color: black; /* Black background for date box */
+    color: white; /* White text */
+    padding: 5px 10px; /* Padding for date box */
+    width: fit-content; /* Fit content */
+    margin-bottom: 10px; /* Margin below date box */
+  }
+  
+  .event-heading {
+    font-size: 20px; /* Heading font size */
+    font-weight: bold; /* Bold font */
+    margin: 10px 0; /* Margin above and below heading */
+  }
+  
+  .event-subheading {
+    font-size: 16px; /* Subheading font size */
+    margin: 0px 5px; /* Margin above and below subheading */
+  }
+  
+  .event-paragraph {
+    font-size: 14px; /* Paragraph font size */
+    margin-top: 150px; /* Margin above paragraph */
+  }

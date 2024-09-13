@@ -1,0 +1,87 @@
+/* Ranking Section Styles */
+.ranking-section {
+    background-color: #111111; /* Slightly lighter than pure black */
+    padding: 40px; /* Padding around the section */
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Column layout */
+    align-items: center; /* Center align items */
+    color: #ffffff; /* White text color */
+  }
+  
+  .ranking-content {
+    max-width: 1200px; /* Maximum width for content */
+    width: 100%; /* Full width */
+    display: flex; /* Flexbox layout for content */
+    justify-content: space-between; /* Space between left and right content */
+    align-items: center; /* Center align items vertically */
+  }
+  
+  .ranking-header {
+    display: flex; /* Flexbox layout for header */
+    flex-direction: column; /* Column layout for header */
+    align-items: flex-start; /* Left align header items */
+    margin-bottom: 10px; /* Margin below header */
+    width: 60%; /* Width for left content */
+  }
+  
+  .ranking-stars {
+    font-size: 24px; /* Star size */
+    color: #ffd700; /* Gold color */
+  }
+  
+  .ranking-title {
+    font-size: 36px; /* Title font size */
+    font-weight: bold; /* Bold font */
+    margin-top: 10px; /* Margin above title */
+  }
+  
+  .ranking-subtitle {
+    font-size: 16px; /* Subtitle font size */
+    color: #a0a0a0; /* Light gray for subtitle */
+    line-height: 1.5; /* Line height for readability */
+    margin-bottom: 20px; /* Margin below subtitle */
+  }
+  
+  .ranking-metrics {
+    display: flex; /* Flexbox layout for ranking metrics */
+    justify-content: flex-end; /* Align metrics to the right */
+    align-items: flex-start; /* Align items at the start */
+    gap: 20px; /* Space between metrics */
+    width: 40%; /* Width for right content */
+  }
+  
+  .ranking-metric {
+    background-color: #222222; /* Dark background */
+    padding: 20px; /* Padding inside metric */
+    text-align: center; /* Center align text in metrics */
+    width: 100px; /* Fixed width for metrics */
+  }
+  
+  .ranking-metric img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Margin below image */
+  }
+  
+  .ranking-number {
+    font-size: 32px; /* Number font size */
+    font-weight: bold; /* Bold font */
+  }
+  
+  .ranking-description {
+    font-size: 14px; /* Description font size */
+    margin-top: 5px; /* Margin above description */
+  }
+  
+  .ranking-logos {
+    display: flex; /* Flexbox layout for logos */
+    justify-content: flex-start; /* Align logos to the left */
+    margin-top: 20px; /* Margin above logos */
+    gap: 20px; /* Space between logos */
+    width: 100%; /* Full width */
+  }
+  
+  .ranking-logos img {
+    height: 30px; /* Adjust based on actual logo size */
+    max-width: 100%; /* Responsive logos */
+  }

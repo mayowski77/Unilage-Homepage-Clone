@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import RankingSection from './components/RankingSection';
+import VCVisionSection from './components/VCVisionSection';
+import UNILAGAtAGlanceSection from './components/UNILAGAtAGlanceSection';
+import NewsSection from './components/NewsSection';
+import EventsSection from './components/EventsSection';
+import StudyingAtUnilagSection from './components/StudyingAtUnilagSection';
+import MeetOurFacultySection from './components/MeetOurFacultySection';
+import ExploreTheCampusSection from './components/ExploreTheCampusSection';
+import MustVisitAreasSection from './components/MustVisitAreasSection';
+import MeetOurStudentsSection from './components/MeetOurStudentsSection';
+import TopResourcesSection from './components/TopResourcesSection'; 
+import FooterSection from './components/FooterSection'; // Import FooterSection
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <HeroSection />
+      <RankingSection />
+      <VCVisionSection />
+      <UNILAGAtAGlanceSection />
+      <NewsSection />
+      <EventsSection />
+      <StudyingAtUnilagSection />
+      <MeetOurFacultySection />
+      <ExploreTheCampusSection />
+      <MustVisitAreasSection />
+      <MeetOurStudentsSection />
+      <TopResourcesSection />
+      <FooterSection /> {/* Add FooterSection here */}
+      {/* Add other components here */}
     </div>
   );
 }

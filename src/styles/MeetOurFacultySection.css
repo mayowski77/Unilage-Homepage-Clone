@@ -1,0 +1,74 @@
+/* Meet Our Faculty Section Styles */
+.meet-faculty-section {
+    background-color: #000000; /* Solid black background */
+    padding: 40px 200px; /* Padding around the section */
+    color: #ffffff; /* White text color */
+  }
+  
+  .faculty-title {
+    font-size: 40px; /* Title font size */
+    font-weight: bold; /* Bold font */
+    margin-bottom: 20px; /* Margin below title */
+    text-align: center; /* Center the title */
+    border-bottom: 2px solid white; /* Thin white horizontal line */
+    padding-bottom: 10px; /* Padding below the title */
+  }
+  
+  .faculty-featured {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space between featured member and showcase */
+  }
+  
+  .featured-member {
+    flex: 1; /* Full width for featured member */
+    text-align: left; /* Left align text */
+    margin-right: 20px; /* Margin to the right */
+  }
+  
+  .featured-member img {
+    width: 100%; /* Full width for image */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .faculty-name {
+    font-size: 20px; /* Faculty name font size */
+    font-weight: bold; /* Bold font */
+    margin-top: 10px; /* Margin above name */
+  }
+  
+  .faculty-title {
+    font-size: 16px; /* Faculty title font size */
+    margin-top: 5px; /* Margin above title */
+    color: gray; /* Gray color for title */
+  }
+  
+  .faculty-quote {
+    font-size: 14px; /* Quote font size */
+    margin-top: 10px; /* Margin above quote */
+    font-style: italic; /* Italic style */
+  }
+  
+  .faculty-showcase {
+    flex: 2; /* 2/3 width for faculty showcase */
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space between faculty members */
+  }
+  
+  .faculty-member {
+    text-align: center; /* Center align text */
+    flex: 1; /* Equal width for each member */
+    margin: 0 10px; /* Margin on left and right */
+  }
+  
+  .faculty-member img {
+    width: 100%; /* Full width for image */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .learn-more {
+    font-size: 14px; /* Learn more font size */
+    color: #ffffff; /* White text */
+    text-decoration: underline; /* Underlined */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-top: 5px; /* Margin above learn more */
+  }

@@ -1,0 +1,81 @@
+/* Vice Chancellor's Vision Section Styles */
+.vc-vision-section {
+    background-color: #ffffff; /* Solid white background */
+    padding: 40px 200px; /* Padding around the section */
+    display: flex; /* Two-column layout */
+    justify-content: space-between; /* Space between text and image */
+    align-items: center; /* Center vertically */
+    margin-bottom: 40px; /* Space below the section to separate it from the next */
+  }
+  
+  .vc-text-column {
+    flex: 60%; /* 60% width for text */
+    display: flex;
+    flex-direction: column; /* Stack text elements vertically */
+    justify-content: center; /* Center content vertically */
+  }
+  
+  .vc-title {
+    font-size: 32px; /* Title font size */
+    font-weight: bold; /* Bold font */
+    color: black; /* Black text */
+    margin-bottom: 10px; /* Margin below title */
+  }
+  
+  .vc-quote {
+    font-size: 70px; /* Large quotation mark size */
+    color: #d3d3d3; /* Light gray color */
+    position: relative; /* For positioning */
+    left: -20px; /* Adjust position as needed */
+  }
+  
+  .vc-statement {
+    font-size: 20px; /* Vision statement font size */
+    font-style: italic; /* Italicized */
+    color: black; /* Black text */
+    margin-bottom: 10px; /* Margin below statement */
+  }
+  
+  .vc-name {
+    font-size: 18px; /* Name font size */
+    font-weight: bold; /* Bold font */
+    color: black; /* Black text */
+    margin-bottom: 5px; /* Margin below name */
+  }
+  
+  .vc-qualifications {
+    font-size: 16px; /* Qualifications font size */
+    color: black; /* Black text */
+    margin-bottom: 5px; /* Margin below qualifications */
+  }
+  
+  .vc-title-role {
+    font-size: 16px; /* Role title font size */
+    color: black; /* Black text */
+    margin-bottom: 10px; /* Margin below role title */
+  }
+  
+  .vc-button {
+    background-color: black; /* Button background */
+    color: white; /* Button text color */
+    font-size: 16px; /* Button font size */
+    padding: 10px 12px; /* Button padding */
+    border: none; /* No border */
+    border-radius: 3px; /* Slight rounding of corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    width: fit-content; /* Fit content */
+  }
+  
+  /* Add an image for the VC section */
+  .vc-image-column {
+    flex: 40%; /* 40% width for image */
+    display: flex;
+    justify-content: center; /* Center image horizontally */
+    align-items: center; /* Center image vertically */
+  }
+  
+  .vc-image {
+    max-width: 55%; /* Ensure image does not overflow */
+    height: auto; /* Maintain aspect ratio */
+    padding: 60px 50px;
+  }

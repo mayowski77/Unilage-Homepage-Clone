@@ -1,0 +1,66 @@
+/* UNILAG at a Glance Section Styles */
+.unilag-glance-section {
+    background-color: #ffffff; /* Solid white background */
+    height: auto; /* Adjust height as needed */
+    display: flex; /* Two-column layout */
+    flex-direction: column; /* Stack elements vertically */
+    padding: 40px 200px; /* Padding around the section */
+    margin-bottom: 40px; /* Space below the section */
+  }
+  
+  .glance-content-wrapper {
+    display: flex; /* Horizontal layout for content and image */
+    justify-content: space-between; /* Space between content and image */
+    margin-bottom: 20px; /* Margin below the content wrapper */
+  }
+  
+  .glance-content {
+    display: flex;
+    flex-direction: column; /* Stack text elements vertically */
+    justify-content: center; /* Center content vertically */
+  }
+  
+  .glance-title {
+    font-size: 32px; /* Title font size */
+    font-weight: bold; /* Bold font */
+    color: black; /* Black text */
+    margin-bottom: 10px; /* Margin below title */
+  }
+  
+  .glance-intro {
+    font-size: 18px; /* Introductory text font size */
+    color: darkgray; /* Dark gray text */
+    width: 70%; /* Width of the introductory text */
+  }
+  
+  .glance-image-column {
+    display: flex;
+    justify-content: center; /* Center image horizontally */
+  }
+  
+  .glance-image {
+    max-width: 100%; /* Ensure image does not overflow */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Statistics Grid Styles */
+  .statistics-grid {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Space between grid items */
+  }
+  
+  .statistic-item {
+    text-align: center; /* Center text in each statistic item */
+  }
+  
+  .statistic-number {
+    font-size: 32px; /* Number font size */
+    font-weight: bold; /* Bold font */
+    color: #8b0000; /* Dark red color */
+  }
+  
+  .statistic-description {
+    font-size: 16px; /* Description font size */
+    color: darkgray; /* Dark gray text */
+  }

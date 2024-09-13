@@ -1,0 +1,49 @@
+/* Studying At UNILAG Section Styles */
+.studying-section {
+    display: flex; /* Flexbox layout for the main section */
+    flex-direction: column; /* Stack elements vertically */
+    padding: 40px 200px; /* Padding around the section */
+  }
+  
+  .studying-header {
+    text-align: left; /* Align header to the left */
+    font-size: 24px; /* Header font size */
+    font-weight: bold; /* Bold font */
+    margin-bottom: 20px; /* Margin below header */
+  }
+  
+  .studying-grid {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Space between grid items */
+  }
+  
+  .studying-item {
+    display: flex; /* Flexbox layout for item */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-start; /* Align items to the top */
+    background-color: white; /* White background */
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow */
+    overflow: hidden; /* Hide overflow */
+  }
+  
+  .studying-item img {
+    width: 100%; /* Full width image */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .studying-title {
+    font-size: 20px; /* Title font size */
+    font-weight: bold; /* Bold font */
+    color: black; /* Black text */
+    margin: 10px; /* Margin around title */
+  }
+  
+  .studying-description {
+    font-size: 14px; /* Description font size */
+    color: darkgray; /* Dark gray text */
+    margin: 10px; /* Margin around description */
+  }
+  

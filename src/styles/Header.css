@@ -1,0 +1,96 @@
+/* Top Bar Styles */
+.top-bar {
+    background-color: #8b0000; /* Dark red background */
+    color: white; /* White text color */
+    height: 40px; /* Fixed height */
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Align items vertically */
+    padding: 0 20px; /* Padding for spacing */
+}
+
+.top-bar-links {
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Vertically align items */
+}
+
+.top-bar a {
+    color: white; /* White link color */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.link-separator {
+    margin: 0 10px; /* Space between links */
+    color: white; /* White separator */
+}
+
+.search-icon {
+    margin-left: 15px; /* Space before search icon */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Main Header Styles */
+.main-header {
+    background-color: #a52a2a; /* Brown background */
+    height: 100px; /* Fixed height */
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Vertically align items */
+    padding: 0 20px; /* Padding for spacing */
+}
+
+.header-container {
+    display: flex; /* Flexbox for header layout */
+    align-items: center; /* Vertically align header elements */
+}
+
+/* Logo Styles */
+.logo {
+    width: 100px; /* Fixed width */
+    height: 100px; /* Fixed height */
+    overflow: hidden; /* Hide overflow */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.logo img {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    object-fit: contain; /* Maintain image aspect ratio */
+}
+
+/* Navigation Bar Styles */
+.navigation {
+    background-color: white; /* White background */
+    height: 60px; /* Fixed height */
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Vertically align items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
+    flex-grow: 1; /* Take remaining space */
+}
+
+.nav-item {
+    color: black; /* Black text color */
+    font-size: 18px; /* Font size */
+    margin-left: 20px; /* Space between nav items */
+    position: relative; /* For dropdown alignment */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.nav-item:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Dropdown Menu Styles */
+.dropdown {
+    position: absolute; /* Absolute positioning for dropdown */
+    top: 100%; /* Position below the nav item */
+    left: 0; /* Align to the left */
+    display: none; /* Hidden by default */
+    background-color: white; /* White background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for dropdown */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.nav-item:hover .dropdown {
+    display: block; /* Show dropdown on hover */
+}

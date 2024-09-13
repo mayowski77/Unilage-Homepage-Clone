@@ -1,0 +1,52 @@
+/* Must Visit Areas Section Styles */
+.must-visit-areas-section {
+    background-color: #ffffff; /* Solid white background */
+    padding: 40px 200px; /* Padding around the section */
+  }
+  
+  .must-visit-title {
+    font-size: 40px; /* Title font size */
+    font-weight: bold; /* Bold font */
+    color: #000000; /* Black text */
+    margin-bottom: 10px; /* Margin below title */
+    text-align: center; /* Center align title */
+  }
+  
+  .must-visit-subtitle {
+    font-size: 18px; /* Subtitle font size */
+    color: darkgray; /* Dark gray text */
+    margin-bottom: 20px; /* Margin below subtitle */
+    text-align: center; /* Center align subtitle */
+  }
+  
+  .must-visit-grid {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Space between grid items */
+  }
+  
+  .must-visit-card {
+    background-color: white; /* White background for card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow */
+    overflow: hidden; /* Hide overflow */
+    text-align: center; /* Center align text */
+  }
+  
+  .must-visit-card img {
+    width: 100%; /* Full width for image */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .must-visit-caption {
+    font-size: 20px; /* Caption font size */
+    font-weight: bold; /* Bold font */
+    color: black; /* Black text */
+    margin: 10px 0; /* Margin above and below caption */
+  }
+  
+  .must-visit-description {
+    font-size: 14px; /* Description font size */
+    color: darkgray; /* Dark gray text */
+    padding: 0 10px; /* Padding for description */
+  }
